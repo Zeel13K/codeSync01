@@ -1,0 +1,71 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+
+
+.mainBack{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url('./public/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+   
+}
+
+
+
+.logo {
+    display: flex;
+  }
+  
+  .logo img {
+    margin-right: 10px; /* This will add some space between the images */
+  }
+  
+
+
+.card{
+    background-color: #153063;
+    height: 399px;
+    width: 495px;
+    border: 5px solid #153063;
+    box-shadow: -13px 10px 10px rgb(0 0 0 / 50%);
+    margin-right: 20rem;
+}
+
+
+
+.lineDivider{
+   width: 0.05rem;
+}
+
+.inputFields{
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+    /* margin: auto 0;
+    min-width: 0.5rem; */
+}
+
+.fields{
+    padding: 0.6rem;
+}
+
+.createNewRoom{
+    text-decoration: underline;
+    margin-left: 5px;
+    color: #0094FF;
+}
+
+.createNewRoom:hover{
+    color: #2b824c;
+}
+
+.joinBtn:hover{
+    background-color: blue;
+}
