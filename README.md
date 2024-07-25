@@ -1,8 +1,32 @@
-# React + Vite
+# Collaborative Code Editor
+### Table of Contents: <br>
+* Introduction
+* Features
+* Technologies Used
+* Installation
+* Usage
+* Contributing
+* License
+* Contact <br>
+### Introduction
+Welcome to the Collaborative Code Editor! This project is designed to allow multiple users to write and edit code in real-time, facilitating collaborative coding sessions, pair programming.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Features
+* Real-time Collaboration: Multiple users can edit the same document simultaneously. <br>
+* Syntax Highlighting: Supports syntax highlighting. <br>
+* User Authentication: Secure login and registration system. <br>
+* User Presence: See who else is online and actively working on the document. <br>
+## Technologies Used:
+#### Frontend:
+* HTML, CSS, JavaScript
+* React (for building the user interface)
+#### Backend:
+* Node.js (runtime environment)
+* Express.js (web framework)
+* Socket.io (real-time communication)
+#### Database:
+* MongoDB (for storing user data and documents)
+#### Authentication:
+* JWT (JSON Web Tokens for user authentication)
+#### Other Tools:
+* CodeMirror or Monaco Editor (for the code editing interface)
