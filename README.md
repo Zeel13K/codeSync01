@@ -2,12 +2,7 @@
 ### Table of Contents: <br>
 * Introduction
 * Features
-* Technologies Used
-* Installation
-* Usage
-* Contributing
-* License
-* Contact <br>
+* Technologies Used <br>
 ### Introduction
 Welcome to the Collaborative Code Editor! This project is designed to allow multiple users to write and edit code in real-time, facilitating collaborative coding sessions, pair programming.
 
