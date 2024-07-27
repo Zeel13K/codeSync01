@@ -1,0 +1,17 @@
+.realtimeEditor {
+    width: 100%;
+    height: 100vh; /* Adjust the height as needed */
+    resize: none;
+    font-size: 16px; /* You can adjust the font size as needed */
+    padding: 10px; /* Add some padding if needed */
+    box-sizing: border-box; /* Ensure padding is included in the width and height */
+}
+
+.CodeMirror {
+    width: 100%;
+    height: 100vh; /* Ensure this matches or is similar to the textarea height */
+    font-size: 20px;
+    line-height: 1.6;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
