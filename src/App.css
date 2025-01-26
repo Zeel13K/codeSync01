@@ -148,8 +148,6 @@ footer a:hover {
     display: flex;
   }
 
-
-  /* Add this to your CSS file (e.g., App.css) */
 .editor-container {
     display: flex;
     flex-direction: column;
@@ -160,6 +158,7 @@ footer a:hover {
 .language-selector {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     gap: 10px;
 }
 
@@ -183,4 +182,21 @@ footer a:hover {
 
 .language-heading{
     color: white;
+    margin-right: 5px;
+}
+
+.runBtn{
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: lighter;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    background: #282a36;
+    color: white;
+    border: none;
+}
+
+.runBtn i{
+    margin-right: 5px;
 }

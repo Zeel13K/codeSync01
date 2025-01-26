@@ -11,7 +11,7 @@ import ACTIONS from '../Actions';
 
 const Editor = ({ socketRef, roomId, onCodeChange }) => {
     const editorRef = useRef(null);
-    const [language, setLanguage] = useState('javascript'); // Default language
+    const [language, setLanguage] = useState('javascript');
 
     useEffect(() => {
         async function init() {
@@ -85,7 +85,7 @@ const Editor = ({ socketRef, roomId, onCodeChange }) => {
     return (
         <div className="editor-container">
             <div className="language-selector">
-                <label htmlFor="language-select" className='language-heading'>Choose a language: </label>
+                <label htmlFor="language-select" className='language-heading'>Choose a language:
                 <select
                     id="language-select"
                     value={language}
@@ -95,6 +95,14 @@ const Editor = ({ socketRef, roomId, onCodeChange }) => {
                     <option value="javascript">JavaScript</option>
                     <option value="python">Python</option>
                 </select>
+                </label>
+              
+
+                <button className="runBtn">
+                    <i class="fa-solid fa-play"></i>  
+                     Run
+                </button>
+
             </div>
             <textarea id="realtimeEditor"></textarea>
         </div>
