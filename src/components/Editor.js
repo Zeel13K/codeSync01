@@ -94,6 +94,8 @@ const Editor = ({ socketRef, roomId, onCodeChange }) => {
                     <option value="html">HTML</option>
                     <option value="javascript">JavaScript</option>
                     <option value="python">Python</option>
+                    <option value="python">Python</option>
+                    <option value="python">Python</option>
                 </select>
                 </label>
               
